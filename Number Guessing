@@ -1,0 +1,14 @@
+import random
+
+num = random.randint(1,100) 
+guess = None
+
+while guess != num:
+    guess = 10
+    if guess < num:
+        print("<TOO HIGH>")
+    elif guess > num:
+        print("<TOO LOW>")
+    else:
+        print("<:-U GUESSED IY CORRECTLY-:>")
+    break
